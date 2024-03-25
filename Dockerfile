@@ -1,5 +1,5 @@
 FROM openjdk:11
-MAINTAINER "Ashok"
+MAINTAINER "Rehan"
 COPY target/spring-boot-docker-app.jar  /usr/app/
 WORKDIR /usr/app/
 EXPOSE 8081
